@@ -1,13 +1,13 @@
 #!/usr/bin/bash
 
-echo ''se borra la salida y se vuelve a crear''
-rm -rf salida
-mkdir salida
+echo ''se borra la web y se vuelve a crear''
+rm -rf web
+mkdir web
 
-./inicio.sh $1 > salida/inicio.html
-./pagina1.sh $1 > salida/pagina1.html
-./pagina2.sh $1 > salida/pagina2.html
-./pagina3.sh $1 > salida/pagina3.html
-./pagina4.sh $1 > salida/pagina4.html
+./inicio.sh $1 > web/inicio.html
+./pagina1.sh $1 > web/pagina1.html
+./pagina2.sh $1 > web/pagina2.html
+./pagina3.sh $1 > web/pagina3.html
+./pagina4.sh $1 > web/pagina4.html
 
 echo ''finalizado''
